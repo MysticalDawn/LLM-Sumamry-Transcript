@@ -19,7 +19,9 @@ faiss-cpu==1.7.4
 python-dotenv==1.0.0
 
 # Security enhancements
-python-magic==0.4.27
+python-magic==0.4.27  # For MIME type validation
+slowapi==0.1.9  # For rate limiting (optional)
 
 # Production server (optional)
-gunicorn==21.2.0 
+gunicorn==21.2.0  # For production deployment
+

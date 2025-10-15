@@ -62,8 +62,8 @@ export default function Home() {
         });
       }, 300);
 
-      // Replace with your actual FastAPI endpoint
-      const response = await fetch("http://127.0.0.1:8000/process", {
+      // Call the FastAPI backend endpoint
+      const response = await fetch("http://127.0.0.1:8000/api/v1/process", {
         method: "POST",
         body: formData,
         headers: {
